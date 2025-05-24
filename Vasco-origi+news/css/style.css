@@ -1,0 +1,863 @@
+body {
+    margin: auto;
+    /*da cambiare a scuola*/
+    background-color: #F9F9F6;
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+    height: 1rem;
+}
+
+#logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-icons a {
+    display: flex;
+    margin-left: 1rem;
+    color: #333;
+    transition: color 0.2s;
+}
+
+.icone-twitter:hover {
+    color: #1da1f2;
+}
+
+.icone-instagram:hover {
+    color: #f21d8b;
+}
+
+.icone-youtube:hover {
+    color: #fc060a;
+}
+
+.icone-youtube:hover {
+    color: #fc060a;
+}
+
+.icone-spotify:hover {
+    color: #06fc33;
+}
+
+.icone-facebook:hover {
+    color: #1206fc;
+}
+
+.container-icons svg {
+    vertical-align: middle;
+}
+
+/*NUOVA SEZZIONE*/
+
+#title-container {
+    font-family: "Orbitron", sans-serif;
+    font-weight: lighter;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.vasco-h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+}
+.album-respo{
+    color: #c0bdbd;
+}
+#title-container-1 {
+    height: 100vh;
+    width: 100%;
+    color: #343434;
+    font-family: "Orbitron", sans-serif;
+    background-image: url('../img/vasco-hero-2.JPG');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 0;
+}
+
+#sezione-sinistra {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0;
+    left: 0;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color:#c5c4c4 ;
+    font-family: "Orbitron", sans-serif;
+    font-size: 9rem;
+    font-weight: 1000;
+    margin: 0;
+}
+
+.tournée {
+    font-size: 15px;
+}
+
+.album {
+    font-size: 30px;
+    margin: 0;
+}
+
+.date-2 {
+    font-size: 16px;
+    margin: 0;
+    margin-top: 15px;
+}
+
+h2 {
+    font-family: "Orbitron", sans-serif;
+    color: #c3c3c3;
+    font-size: 150px;
+    font-weight: 1000;
+    margin: 0;
+}
+
+.tour {
+    font-size: 30px;
+    margin: 0;
+}
+
+.date {
+    font-size: 16px;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.vasco-date {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+span {
+    color: #FF291D;
+}
+
+@media screen and (max-width: 768px) {
+
+    #sezione-destra {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 7rem;
+        margin-right: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .tournée,
+    .date-2,
+    .album {
+        display: none;
+    }
+
+    .tour {
+        font-size: 0px;
+        color: transparent;
+        /* nasconde il testo originale */
+        position: relative;
+    }
+
+
+
+    .tour {
+        font-size: 30px;
+
+    }
+
+    .album {
+        font-size: 12px;
+    }
+
+    .vasco-date {
+        display: none;
+    }
+}
+
+/* nuova sezzione  BIO  */
+
+#bio-sec {
+    margin-top: 0;
+    height: 100vh;
+    width: 100%;
+    color: #121212;
+    font-family: "Orbitron", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+
+    color: #656565;
+    font-size: 100px;
+    margin: 0;
+    margin-bottom: 70px;
+}
+
+.freccia-container-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 0;
+}
+
+.fa-arrow-left,
+.fa-arrow-right {
+    margin-top: 40px;
+}
+
+.freccia-container-1 i {
+
+    font-size: 34px;
+    color: #f80808;
+    height: 60%;
+    width: 100%;
+}
+
+.bio-exp {
+    color: #696969;
+    margin: 0;
+    font-size: 25px;
+    height: 250px;
+    width: 80%;
+    text-align: left;
+    line-height: 1.8;
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width: 768px) {
+
+
+    h3 {
+        font-size: 50px;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+
+    .freccia-container i {
+        height: 50%;
+        width: 100%;
+    }
+
+    .bio-exp {
+        text-align: left;
+        color: #686868;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
+        height: 100vh;
+        width: 80%;
+        line-height: 1.8;
+        margin-bottom: 48px;
+    }
+}
+
+
+
+/* nuova sezzione  DATE  */
+
+#date-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+    margin-top: 50px;
+}
+
+h4 {
+    color: #686868;
+    margin: auto;
+    font-size: 70px;
+    width: 100%;
+}
+
+ol {
+    margin-right: 25px;
+    text-align: center;
+    list-style-type: none;
+    text-align: left;
+    font-size: 25px;
+    line-height: 3;
+
+}
+
+li {
+    background: white;
+    /* o un altro colore per far risaltare l'ombra */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10%;
+    padding-left: 20px;
+    margin: 3rem;
+    border: 3px solid rgb(48, 47, 48);
+}
+
+
+.date-sold-out {
+    position: relative;
+    border-radius: 8px;
+    font-family: "Orbitron", sans-serif;
+    color: #f80808;
+    opacity: 60%;
+}
+
+.sold-out {
+    position: absolute;
+    top: -10px;
+    left: 200px;
+    background-color: red;
+    color: white;
+    border-radius: 8%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transform: rotate(-10deg)
+}
+
+/* nuova sezzione  DISCOGRAPHIE  */
+
+
+#discographie {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.title-discogra {
+    color: rgb(81, 81, 81);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    font-size: 90px;
+    margin: 0;
+    width: 100%;
+}
+
+.freccia-container-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 15px auto;
+
+}
+
+.titolo {
+    margin-bottom: 30px;
+}
+
+.date-1 {
+    font-size: 20px;
+}
+
+.freccia-container-2 i {
+    font-size: 20px;
+    color: #504e4e;
+    margin: 0;
+
+}
+
+
+i {
+    color: #1f1f1f;
+}
+
+.corule-containe {
+    display: flex;
+    position: relative;
+    height: auto;
+    width: 100%;
+    max-width: 1200px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    max-width: 550px;
+
+
+
+}
+
+h4 {
+    font-size: 30px;
+    margin: 24px;
+}
+
+.carusel {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+    max-width: 500px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 250px;
+    max-width: 250px;
+    flex-shrink: 0;
+    /* impedisce che si restringano */
+    padding: 10px 14px;
+    margin: 24px;
+    border-radius: 9%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(to bottom, #1a1a1a, #f5f5f5);
+    border: 3px solid rgb(95, 94, 94);
+}
+
+.carusel-track {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    margin-left: auto;
+    gap: 16px;
+    width: max-content;
+    transition: transform 0.4s ease-in-out;
+}
+
+.carosello-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 5%;
+    margin: auto;
+}
+
+.viu-more {
+    border: none;
+    font-size: 12px;
+    color: hsl(0, 0%, 24%);
+    padding: 6px 12px;
+    background-color: #1da1f2;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.viu-more:hover {
+    background-color: #06fc33;
+
+}
+
+.prev {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 8px;
+    color: #121212;
+    background-color: #1da1f2;
+}
+
+.next {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 8px;
+    color: #121212;
+    background-color: #1da1f2;
+}
+
+
+@media screen and (max-width: 768px) {
+    .title-discogra {
+        font-size: 50px;
+    }
+}
+
+
+
+
+/* nuova sezzione  T-Shirt  */
+
+#shopping {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.h4-title {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    font-family: "Orbitron", sans-serif;
+}
+
+.card-container {
+    font-family: "Orbitron", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid rgb(74, 74, 74);
+    min-width: 250px;
+    max-width: 250px;
+    flex-shrink: 0;
+    /* impedisce che si restringano */
+    padding: 10px 14px;
+    margin: 24px;
+}
+
+.contain-T-Shirt {
+    display: flex;
+    margin-top: 50px;
+    margin: auto;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Orbitron", sans-serif;
+
+}
+
+.card-t {
+    font-family: "Orbitron", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+    /* impedisce che si restringano */
+    padding: 10px 14px;
+    margin: 24px;
+
+
+}
+
+.cta-buy {
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: "Orbitron", sans-serif;
+    width: 300px;
+    height: 70px;
+    border: none;
+    font-weight: bold;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    text-shadow: 1px 1px 0px rgba(74, 74, 74, 1);
+    margin-bottom: 24px;
+    background: #FF291D;
+
+}
+
+.cta-buy a {
+    color: rgb(9, 9, 9);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    /* Centra verticalmente il testo */
+}
+
+.cta-buy:hover {
+    background: rgb(168, 168, 168);
+    transition: transition 0.5s;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .contain-T-Shirt {
+        flex-wrap: wrap;
+    }
+
+    .h4-title {
+        font-size: 40px;
+        margin: auto;
+    }
+}
+
+
+/* nuova sezzione  NEWS  */
+#new {
+    font-family: "Orbitron", sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: #FF291D;
+}
+
+.cont-rig {
+    font-family: "Orbitron", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-lef {
+    font-family: "Orbitron", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-size: 20px;
+    gap: 20px;
+
+
+}
+
+.spediz {
+    font-family: "Orbitron", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-truck-fast {
+
+    margin-right: 20px;
+}
+
+.fa-box-open {
+    margin-right: 20px;
+}
+
+.fa-phone-volume {
+    margin-right: 20px;
+}
+
+.fa-rotate-left {
+    margin-right: 20px;
+}
+
+.buy-2 {
+    font-family: "Orbitron", sans-serif;
+    width: 150px;
+    height: 50px;
+    background-color: #111111;
+    color: #eeeeee;
+}
+
+.titolo-new {
+    font-family: "Orbitron", sans-serif;
+    font-size: 50px;
+}
+
+.spiega-new {
+    font-family: "Orbitron", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.search,
+.email {
+    font-family: "Orbitron", sans-serif;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: "Orbitron", sans-serif;
+    font-size: 20px;
+    width: 200px;
+    height: 30px;
+    padding: 15px;
+    margin-top: 24px;
+    border: none;
+    color: #eeeeee;
+    font-weight: bold;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    margin-bottom: 24px;
+    background: #111111;
+    text-align: start;
+    line-height: 50px;
+
+}
+
+@media screen and (max-width: 768px) {
+    #new {
+        flex-direction: column;
+    }
+
+    .spediz {
+        margin-left: 12px ;
+        justify-content: flex-start;
+    }
+.fa-rotate-left{
+    display: none;
+}
+    .titolo-new {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+}
+
+
+/* nuova sezzione  footer */
+
+
+
+h5 {
+    font-family: "Orbitron", sans-serif;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: large;
+}
+
+footer {
+    font-family: "Orbitron", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    background-color: #321414;
+}
+
+
+/* nuova sezzione news*/
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #111;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #d90429;
+    padding-bottom: 10px;
+}
+
+.header h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #fff;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+.title-news {
+    font-size: 70px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.cta {
+    display: inline-block;
+    background-color: #d90429;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.gallery img {
+    width: 30%;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 5px;
+}
+
+a {
+    color: #d90429;
+}
